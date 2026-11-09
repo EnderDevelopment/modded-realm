@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "server_toolkit",
+  "version": "${version}",
+  "name": "Server Toolkit",
+  "description": "Server-side spawn tools and join messaging for Fabric.",
+  "authors": ["Server Toolkit Team"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.servertoolkit.ServerToolkit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": ">=0.107.0+1.21.1"
+  }
+}
